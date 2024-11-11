@@ -12,7 +12,6 @@ A customizable leveling system built in Python, where users can gain experience 
 5. [File Structure](#file-structure)
 6. [Future Enhancements](#future-enhancements)
 7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
