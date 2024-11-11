@@ -37,20 +37,82 @@ The leveling system works by allowing users to create a character with an initia
 
 ## Installation
 
+## Installation
+
+### For Windows
+
 1. **Clone the Repository**:
+    - Install [Git for Windows](https://git-scm.com/download/win) if you don’t already have it.
+    - Open **Git Bash** (installed with Git for Windows) or **Command Prompt** and run the following command to clone the repository:
     ```bash
     git clone https://github.com/yourusername/LevelingSystem.git
     cd LevelingSystem
     ```
 
-2. **Install Dependencies**:
-    - This project uses only standard Python libraries, so no additional dependencies are needed.
+2. **Install Python**:
+    - Download and install [Python](https://www.python.org/downloads/) if you haven’t already.
+    - Ensure Python is added to your system’s PATH during installation by checking the option “Add Python to PATH”.
+    - After installation, open **Command Prompt** and verify Python is installed by running:
+    ```bash
+    python --version
+    ```
+    You should see the version of Python installed, e.g., `Python 3.x.x`.
 
-3. **Run the Program**:
-    - You can run the main program from `main.py`:
+3. **Install Dependencies**:
+    - This project does not require any external dependencies, so you can skip installing additional packages.
+
+4. **Run the Program**:
+    - To run the program, execute the following command from the `LevelingSystem` directory:
     ```bash
     python main.py
     ```
+
+### For Linux
+
+1. **Clone the Repository**:
+    - Open a terminal and run the following command to clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/LevelingSystem.git
+    cd LevelingSystem
+    ```
+
+2. **Install Python**:
+    - On most Linux distributions, Python is pre-installed. Verify by running:
+    ```bash
+    python3 --version
+    ```
+    If Python is not installed, install it using:
+    ```bash
+    sudo apt update
+    sudo apt install python3
+    ```
+
+3. **Install Dependencies**:
+    - No external dependencies are required for this project.
+
+4. **Run the Program**:
+    - To run the program, execute:
+    ```bash
+    python3 main.py
+    ```
+
+---
+
+### Additional Notes:
+- If you're using a virtual environment (optional but recommended for isolating dependencies), you can create and activate one using:
+    - For **Windows**:
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+    - For **Linux**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+After activating the virtual environment, you can run the program using the commands above.
+
 
 ---
 
