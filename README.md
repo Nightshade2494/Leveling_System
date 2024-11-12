@@ -37,8 +37,6 @@ The leveling system works by allowing users to create a character with an initia
 
 ## Installation
 
-## Installation
-
 ### For Windows
 
 1. **Clone the Repository**:
