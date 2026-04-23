@@ -2,7 +2,7 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 
 export const metadata = {
-  title: 'Gamified Task Manager',
+  title: 'Reward-Based Task App (Gamified)',
   description: 'Complete tasks, earn XP, climb the leaderboard.'
 };
 

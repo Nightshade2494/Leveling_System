@@ -1,4 +1,4 @@
-# Gamified Task Management Web App
+# Reward-Based Task App (Gamified)
 
 A full-stack, production-style gamified task manager where users complete tasks, earn XP, unlock badges, claim rewards, and compete on a live leaderboard.
 
