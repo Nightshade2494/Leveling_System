@@ -26,7 +26,17 @@ A full-stack, production-style gamified task manager where users complete tasks,
   /components
   /lib
   /store
+/web3
+  /contracts
+  /scripts
 ```
+
+
+## Optional Web3 Layer
+- Smart contract source: `web3/contracts/RewardTaskApp.sol`
+- Hardhat config/scripts: `web3/hardhat.config.js`, `web3/scripts/deploy.js`
+- To get the contract ID (address), deploy and read `web3/deployed-address.json`.
+- Detailed steps: `web3/README.md`
 
 ## Features
 - JWT auth (register/login)
